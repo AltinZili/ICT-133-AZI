@@ -9,7 +9,7 @@
 
 <?php
 //logique et données
-$title="si-cmi2A";
+$title = "si-cmi2A";
 $students = [
         "Marwan",
         "Simon",
