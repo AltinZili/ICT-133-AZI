@@ -1,11 +1,4 @@
 <?php
-/*  Program:
-    Author: Altin Zili
-    Date: 19.12.2019
-    Version:
-*/
-
-ob_start();
 $movies = [
     ['title' => 'Jumanji: Next Level', 'audio' => 'Doublé en français', 'showtime' => '18:00'],
     ['title' => 'La Reine des neiges 2', 'audio' => 'Doublé en français', 'showtime' => '15:30'],
@@ -18,17 +11,6 @@ $movies = [
 
 ?>
 
-<h1> Liste des films </h1>
-<ul>
-    <?php
-    foreach($movies as $movie)
-    {
-        echo "<li>".$movie['title']."</li>";
-    }
-    ?>
-</ul>
 
-<?php
-$content = ob_get_clean();
-require_once 'gabarit.php';
-?>
+
+

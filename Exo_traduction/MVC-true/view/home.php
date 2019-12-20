@@ -18,4 +18,5 @@ ob_start();
     </div>
 <?php
 $content = ob_get_clean();
+require_once 'gabarit.php';
 ?>
